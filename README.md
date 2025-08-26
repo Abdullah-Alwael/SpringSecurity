@@ -18,6 +18,7 @@ They can also be used for authentication, authorization, and data transmission. 
 
 # The Structure of a JSON Web Token
 The three (dot . separated) data a JSON Web Token help transfer are:
-. Header, stores data that identifies the type of token it is, and the encryption algorithms used to secure the contained data.
-. Payload, the payload stores the actual data to be transferred on the network.
-. Signature, the signature is what identifies if the data was changed while transferring the token.
+
+  - Header, stores data that identifies the type of token it is, and the encryption algorithms used to secure the contained data.
+  - Payload, the payload stores the actual data to be transferred on the network.
+  - Signature, the signature is what identifies if the data was changed while transferring the token.
